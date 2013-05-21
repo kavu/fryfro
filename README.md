@@ -1,6 +1,14 @@
 # Fryfro
 
+![Fryfro](https://raw.github.com/kavu/fryfro/master/doc/fryfro.png)
+
 Fryfro is a Flurry API client.
+
+[![Coderwall](https://api.coderwall.com/kavu/endorsecount.png)](https://coderwall.com/kavu)
+[![Travis CI](https://travis-ci.org/kavu/fryfro.png)](https://travis-ci.org/kavu/fryfro)
+[![Code Climate](https://codeclimate.com/github/kavu/fryfro.png)](https://codeclimate.com/github/kavu/fryfro)
+[![Still Maintained](http://stillmaintained.com/kavu/fryfro.png)](http://stillmaintained.com/kavu/fryfro)
+[![Dependency Status](https://gemnasium.com/kavu/fryfro.png)](https://gemnasium.com/kavu/fryfro)
 
 ## Installation
 
