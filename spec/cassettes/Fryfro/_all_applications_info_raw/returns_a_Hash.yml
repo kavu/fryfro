@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.flurry.com/appInfo/getAllApplications?apiAccessCode=philip
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/xml
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 22 May 2013 11:37:42 GMT
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=10
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - '*'
+    body:
+      encoding: UTF-8
+      string:
+        <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+        <applications companyName="Planet Express" version="1.0" generatedDate="5/22/13 4:36 AM">
+        <application name="Bender" platform="Android" createdDate="2012-10-11" apiKey="001001"/>
+        <application name="Nibler" platform="Android" createdDate="2013-04-05" apiKey="666"/>
+        <application name="Cookwizme" platform="iPhone" createdDate="2013-01-16" apiKey="key"/>
+        </applications>
+    http_version:
+  recorded_at: Wed, 22 May 2013 11:36:55 GMT
+recorded_with: VCR 2.5.0
